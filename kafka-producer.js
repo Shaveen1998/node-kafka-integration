@@ -14,7 +14,7 @@ const coapServer = coap.createServer(function (req, res) {
     console.log('Data sent to Kafka')
   })
 
-  res.end('received')
+  res.end('msg received')
 })
 
 // Start CoAP server
